@@ -1,0 +1,8 @@
+{
+    "name": "wasilak/file-upload",
+    "autoload": {
+        "psr-0" : {
+            "Wasilak\\FileUpload" : "src"
+        }
+    }
+}
