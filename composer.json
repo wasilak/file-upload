@@ -1,5 +1,20 @@
 {
     "name": "wasilak/file-upload",
+    "homepage": "https://github.com/wasilak/file-upload",
+    "description": "Very simple file upload library. For now it only uploads to Amazon S3 using AWS SDK for PHP.",
+    "keywords": ["upload","aws","amazon","sdk","s3"],
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Piotr Wasilewski",
+            "homepage":"http://wasil.org"
+        }
+    ],
+    "require":
+    {
+        "aws/aws-sdk-php-laravel": "1.*"
+    },
     "autoload": {
         "psr-0" : {
             "Wasilak\\FileUpload" : "src"
