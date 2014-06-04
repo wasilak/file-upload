@@ -2,6 +2,8 @@
 
 namespace Wasilak\FileUpload\Endpoint;
 use Wasilak\FileUpload\Endpoint;
+use Aws\Common\Aws;
+use Aws\S3\Exception\S3Exception;
 
 class S3 extends Endpoint {
 
