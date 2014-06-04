@@ -1,6 +1,7 @@
 <?php
 
 namespace Wasilak\FileUpload\Endpoint;
+use Wasilak\FileUpload\Endpoint;
 
 class S3 extends Endpoint {
 
