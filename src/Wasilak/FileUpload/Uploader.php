@@ -3,9 +3,8 @@
 namespace Wasilak\FileUpload;
 
 class Uploader {
-	public function __construct($exit = false)
+	public function __construct(Wasilak\FileUpload\Endpoint $endpoint)
 	{
-		echo __CLASS__;
-		if ($exit) exit();
+		return $endpoint->upload();
 	}
 }
