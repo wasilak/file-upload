@@ -13,7 +13,7 @@
     ],
     "require":
     {
-        "aws/aws-sdk-php": "2.6.*@dev"
+        "aws/aws-sdk-php": "*"
     },
     "autoload": {
         "psr-0" : {
